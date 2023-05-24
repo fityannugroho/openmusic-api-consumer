@@ -1,0 +1,39 @@
+{
+  "name": "openmusic-api-consumer",
+  "version": "1.0.0",
+  "description": "Consumer for openmusic API",
+  "main": "src/index.js",
+  "scripts": {
+    "lint": "eslint ./src",
+    "start-prod": "set NODE_ENV=production && node ./src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/fityannugroho/openmusic-api-consumer.git"
+  },
+  "keywords": [
+    "api",
+    "music",
+    "playlist",
+    "consumer",
+    "message-broker"
+  ],
+  "author": "Fityan <fityannugroho@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/fityannugroho/openmusic-api-consumer/issues"
+  },
+  "homepage": "https://github.com/fityannugroho/openmusic-api-consumer#readme",
+  "dependencies": {
+    "amqplib": "^0.10.3",
+    "dotenv": "^16.0.3",
+    "nodemailer": "^6.9.2",
+    "pg": "^8.11.0"
+  },
+  "devDependencies": {
+    "eslint": "^8.41.0",
+    "eslint-config-airbnb-base": "^15.0.0",
+    "eslint-plugin-import": "^2.27.5"
+  }
+}
